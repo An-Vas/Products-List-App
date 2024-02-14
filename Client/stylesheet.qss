@@ -1,0 +1,71 @@
+QPushButton {
+    color: #111;
+    border: 2px solid #555;
+
+    background-color: white;
+    border-style: solid;
+    border-width:1px;
+    border-radius:8px;
+    border-color: #fff4c4 ;
+    max-width:1120px;
+    max-height:30px;
+    min-width:50px;
+    min-height:15px;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 2, stop: 0 #ffefbf , stop: 1 #e29f6f
+        );
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1.35, stop: 0 #cfcf8f, stop: 1 #e2df4f
+        );
+    border-color: #eee4a4 ;
+}
+
+ QLineEdit {
+    border-radius: 4px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+ }
+
+ QTextEdit {
+    border-radius: 8px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+ }
+
+QLineEdit:focus {
+    font-family: "Sitka";
+    border:4px outset;
+    border-radius: 8px;
+    border-color: rgb(255, 228, 196);
+    color:rgb(0, 0, 0);
+    background-color: rgb(240, 230, 210);
+}
+
+QSpinBox {
+    border-radius: 4px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+FontLoader { id: sitka; source: "C:\\Windows\\WinSxS\\amd64_microsoft-windows-font-truetype-sitka_31bf3856ad364e35_10.0.19041.1_none_9c1fe6045dbd922a\\Sitka.ttc" }
+
+
+QApplication {
+    max-width:650px;
+
+    min-width:650px;
+    min-height:300px;
+    font-family: "Sitka";
+    font-size: 12pt;
+}
+
+@font-face {
+    font-family: "Sitka";
+    source: ("C:\\Windows\\WinSxS\\amd64_microsoft-windows-font-truetype-sitka_31bf3856ad364e35_10.0.19041.1_none_9c1fe6045dbd922a\\Sitka.ttc");
+}

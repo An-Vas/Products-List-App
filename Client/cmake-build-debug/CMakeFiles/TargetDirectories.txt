@@ -1,0 +1,6 @@
+C:/ITMO/5S_cpp/Client/cmake-build-debug/CMakeFiles/Client.dir
+C:/ITMO/5S_cpp/Client/cmake-build-debug/CMakeFiles/json.dir
+C:/ITMO/5S_cpp/Client/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/ITMO/5S_cpp/Client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/ITMO/5S_cpp/Client/cmake-build-debug/CMakeFiles/Client_autogen.dir
+C:/ITMO/5S_cpp/Client/cmake-build-debug/CMakeFiles/json_autogen.dir
